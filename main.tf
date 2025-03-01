@@ -65,6 +65,6 @@ resource "aws_instance" "demo_instance" {
   associate_public_ip_address = true
 
   tags = {
-    Name = "productiontf-instance"
+    Name = "niyi-instance"
   }
 }
